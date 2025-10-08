@@ -11,7 +11,10 @@ const HeroSection = () => {
      <div className="col-span-7 place-self-center text-center sm:text-left ">
        <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
       
-      <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600'>Hi, I'm </span>
+      <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-600'>
+        Hi, I'm 
+        </span>
+        <br />
         <TypeAnimationComponent 
         text1="Eymen" 
         text2="React/Next.js Developer" 
@@ -21,7 +24,7 @@ const HeroSection = () => {
         className='text-2xl font-bold' />
         </h1>
        <p className='text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl'>
-         React / Next.js / Vue.js Frontend Developer
+         Javascript / Typescript / React / Next.js / Vue.js / Node.js / SCSS / CSS Frameworks / API Integration
          </p>
          <div>
           <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white font-semibold '>Hire Me !</button>
